@@ -62,7 +62,8 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "terser", "~> 1.2"
+gem "terser",
+    github: 'ahorek/terser-ruby'
 
 gem "alchemy_cms", "~> 7.4"
 
